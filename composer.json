@@ -1,0 +1,30 @@
+{
+    "name": "danielarcher/rabbitmq-playground",
+    "type": "library",
+    "description": "This library is a fun implementation using RabbitMQ and the AMQP protocol. It's self learn project and be free to contribute",
+    "keywords": ["rabbitmq", "message", "queue", "fun"],
+    "homepage": "https://github.com/danielarcher/rabbitmq-playground/",
+    "authors": [
+        {
+            "name": "Daniel Archer",
+            "email": "contato@danielcramer.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "php-amqplib/php-amqplib": ">=2.6.1",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RabbitPG\\": "src/RabbitPG/"
+        }
+    },
+    "license": "Apache License 2.0"
+}
